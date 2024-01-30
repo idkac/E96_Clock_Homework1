@@ -6,14 +6,12 @@ using UnityEngine;
 public class RotationScript : MonoBehaviour
 {
     private Vector3 origin;
-    private float time;
     [SerializeField] private float speed = 30f;
 
     // Start is called before the first frame update
     void Start()
     {
         origin = new Vector3(0,0,0);
-        time = 0f;
     }
 
     // Update is called once per frame
